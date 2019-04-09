@@ -1,0 +1,58 @@
+div.header_logo img
+{
+	width: 210;
+	height: 200px;
+	margin-left: 2%;
+	margin-top: 2%;
+	border-radius: 35%;
+}
+div.header
+{
+	background-color: #00ccff;
+
+}
+div.header h4 img
+{
+	 height: 110px;
+     width: 100px;
+}
+div.header h1
+{
+	display: inline;
+	font-family: Courier New;
+	float: right;
+	padding-right: 40%;
+	font-size: 4em;
+	color: #ff3399;
+}
+div.header h2
+{
+	display: inline;
+	padding-left: 280px;
+	color: #cc3300;
+	position: relative;
+	top: -100px;
+	font-size: 2em;
+}
+div.footer 
+{
+	background-color: lightblue;
+	height: 100px;
+}
+
+div.footer_join a 
+{
+float: right;
+position: relative;
+left: -20px;
+}
+div.footer a img {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 60px;
+	top: -10px;
+}
+div.footer h3 {
+	text-align: center;
+}
