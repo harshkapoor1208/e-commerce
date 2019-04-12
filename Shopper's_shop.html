@@ -20,43 +20,39 @@
 		</div>
 		<div class="main">
 			<div class="dropbtn">
-				<button class="dropbtn">
-					Men's Fashion
-					<a href="#">
-						Shirts & T-shirts
-					</a>
-					<a href="#">
-						Jeans & Trousers
-					</a>
-					<a href="#">
-						Footwear
-					</a>
-				</button>
-				<button class="dropbtn">
-					Ladie's Fashion
-					<a href="#">
-						Kurtis, Tops & Dresses
-					</a>
-					<a href="#">
-						Jeans & Trousers
-					</a>
-					<a href="#">
-						Footwear
-					</a>
-					<a href="#">
-						Accessories
-					</a>
-				</button>
-				<button class="dropbtn">
-					Daily Needs
-					<a href="#">
-						Home
-				</a>
-					<a href="#">
-						Kitchen
-				</a>
-				</button>
+		<button class="btn" style="vertical-align: middle;">Men's Fashion</button>
+		<button class="btn" style="vertical-align: middle;">Women's Fashion</button>
+		<button class="btn" style="vertical-align: middle;">Kids Fashion</button>
+		<button class="btn" style="vertical-align: middle;">Home & Living</button>
+		<button class="btn" style="vertical-align: middle;">Personal Care & Wellness</button>
+		<button class="btn" style="vertical-align: middle;">Household Supplies</button>
 			</div>
+		<div class="slideshow" style="max-width:589px;" align="center">
+              <img class="mySlides" src="1.jpg" style="width:90%" >
+              <img class="mySlides" src="2.jpg" style="width:90%" >
+              <img class="mySlides" src="3.jpg" style="width:90%" >
+              <img class="mySlides" src="4.jpg" style="width:90%" >
+              <img class="mySlides" src="5.jpg" style="width:90%" >
+              <img class="mySlides" src="6.jpg" style="width:90%" >
+              <img class="mySlides" src="7.jpg" style="width:90%" >
+        </div>
+        <script>
+            var myIndex = 0;
+			carousel();
+
+			function carousel() {
+  			var i;
+  			var x = document.getElementsByClassName("mySlides");
+  			for (i = 0; i < x.length; i++) {
+    		x[i].style.display = "none";  
+  				}
+  			myIndex++;
+  			if (myIndex > x.length) {myIndex = 1}    
+  			x[myIndex-1].style.display = "block";  
+  			setTimeout(carousel, 2800);
+			}
+		</script>
+
 		</div>
 		<div class="footer">
 			<a href="#">

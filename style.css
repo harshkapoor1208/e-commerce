@@ -1,3 +1,7 @@
+body
+{
+	    background: linear-gradient(to right, #200122, #6f0000);
+	}
 div.header_logo img
 {
 	width: 210;
@@ -6,9 +10,16 @@ div.header_logo img
 	margin-top: 2%;
 	border-radius: 35%;
 }
+img.mySlides
+{
+	margin-left:370px;
+}
+div.slideshow
+{
+	margin-right:500px;
+}
 div.header
 {
-	background-color: #00ccff;
 
 }
 div.header h4 img
@@ -34,9 +45,37 @@ div.header h2
 	top: -100px;
 	font-size: 2em;
 }
+div.main
+{
+	height: 600px;
+}
+.btn {
+  background-color:#ff0066;
+  border: none;
+  color: black;
+  padding: 18px 35px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  font-style: italic;
+  border-radius: 12px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.btn:hover {
+  background-color: #ff66ff;
+  box-shadow: 0 12px 16px 0 rgb(102, 0, 102), 0 17px 50px 0;
+  padding-right: 25px;
+  opacity: 1;
+  right: 0;
+
+}
 div.footer 
 {
-	background-color: lightblue;
+	background-color: white;
 	height: 100px;
 }
 
