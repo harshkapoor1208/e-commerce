@@ -13,11 +13,10 @@ div.header_logo img
 img.mySlides
 {
 	margin-left:370px;
+	margin-top: 20px;
+	width: 200px;
 }
-div.slideshow
-{
-	margin-right:500px;
-}
+
 div.header
 {
 
@@ -45,9 +44,94 @@ div.header h2
 	top: -100px;
 	font-size: 2em;
 }
+.topnav 
+{
+  overflow: hidden;
+  background-color: #ff0066;
+  margin-top: -40px;
+  height: 50px;
+}
+
+.topnav button{
+	float: right;
+	padding-top: 6px 10px;
+	margin-top: 8px;
+	background-color: #ff0066;
+	border:none;
+	display: block;
+	font-size: 17px;
+
+}
+
+.topnav a
+{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ff66ff;
+  color: black;
+}
+
+.topnav .search-container {
+  float: right;
+  margin-top: 2px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.topnav a.active
+{
+margin-top: -5px;
+float:right;
+}
+
+
 div.main
 {
-	height: 600px;
+	height:720px; 
 }
 .btn {
   background-color:#ff0066;
@@ -94,4 +178,6 @@ div.footer a img {
 }
 div.footer h3 {
 	text-align: center;
+	position: relative;
+	left: 50px;
 }
