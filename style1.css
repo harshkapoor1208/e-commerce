@@ -10,12 +10,6 @@ div.header_logo img
 	margin-top: 2%;
 	border-radius: 35%;
 }
-img.mySlides
-{
-	margin-left:370px;
-	margin-top: 20px;
-	width: 200px;
-}
 
 div.header
 {
@@ -130,6 +124,39 @@ float: right;
 
 
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+ 
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  text-decoration: none;
+}
+.card
+{
+  width:250px;
+}
+.card button:hover {
+  opacity: 0.7;
+}
 .btn {
   background-color:#ff0066;
   border: none;
@@ -145,7 +172,17 @@ float: right;
     display: inline-block;
     margin-left: 20px;
 }
+.card h3
+{
+  font-size: 40px;
+  color: black;
 
+}
+.card p
+{
+  color: white;
+  text-decoration: none;
+}
 .btn:hover {
   background-color: #ff66ff;
   box-shadow: 0 12px 16px 0 rgb(102, 0, 102), 0 17px 50px 0;
@@ -157,7 +194,8 @@ float: right;
 div.footer 
 {
 	background-color: black;
-	height: 100px;
+	height: 120px;
+  margin-top: 50px;
 
 }
 .footer .follow a img{
@@ -172,7 +210,7 @@ div.footer_join a
 {
 float: right;
 position: relative;
-left: -20px;
+left: 50px;
 top: -110px;
 color: #ff66cc;
 }
@@ -180,7 +218,7 @@ div.footer a img {
 	width: 50px;
 	height: 50px;
 	position: relative;
-	left: 60px;
+	left: -60px;
 	top: -10px;
 }
 div.footer h3 {
@@ -189,4 +227,4 @@ div.footer h3 {
 	left: 50px;
 	top: -99px;
 	color: #ff66cc;
-}
+} 
