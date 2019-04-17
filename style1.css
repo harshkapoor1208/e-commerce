@@ -94,6 +94,9 @@ div.header h2
   font-size: 17px;
   border: none;
   cursor: pointer;
+  position: relative;
+  top: -20px;
+
 }
 
 .topnav .search-container button:hover {
@@ -118,7 +121,7 @@ div.header h2
 }
 .topnav a.active
 {
-margin-top: -5px;
+margin-top: -25px;
 float: right;
 }
 
@@ -193,38 +196,93 @@ float: right;
 }
 div.footer 
 {
-	background-color: black;
-	height: 120px;
-  margin-top: 50px;
+  background-color: black;
+  height: 100px;
+  width: auto;
 
 }
-.footer .follow a img{
-	height: 35px;
-	width: 40px;
-	margin-top: 80px;
-	position: relative;
-	top: -50px;
-	left: 20px;
-}
+
 div.footer_join a 
 {
-float: right;
+  float: right;
 position: relative;
-left: 50px;
-top: -110px;
+left: -50px;
+top: -70px;
 color: #ff66cc;
 }
 div.footer a img {
-	width: 50px;
-	height: 50px;
-	position: relative;
-	left: -60px;
-	top: -10px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 60px;
+  top: -10px;
 }
 div.footer h3 {
-	text-align: center;
-	position: relative;
-	left: 50px;
-	top: -99px;
-	color: #ff66cc;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  top: 35px;
+  color: #ff66cc;
+}
+  
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: auto;
+  width: auto;
+}
+.fa-instagram {
+  background: #ff3399;
+  color: white;
+  height: auto;
+  width: auto;
+}
+.icon-bar {
+  position: absolute;
+  top: 90%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 50px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
 } 
+.insta{
+  background:#ff3399;
+}
+.whatsapp {
+  background-color: #00cc66;
+}
+

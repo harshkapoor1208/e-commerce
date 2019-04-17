@@ -1,0 +1,160 @@
+body
+{
+	    background: linear-gradient(to right, #200122, #6f0000);
+	}
+div.header_logo img
+{
+	width: 210;
+	height: 200px;
+	margin-left: 2%;
+	margin-top: 2%;
+	border-radius: 35%;
+}
+
+div.header
+{
+
+}
+div.header h4 img
+{
+	 height: 110px;
+     width: 100px;
+}
+div.header h1
+{
+	display: inline;
+	font-family: Courier New;
+	float: right;
+	padding-right: 40%;
+	font-size: 4em;
+	color: #ff3399;
+}
+div.header h2
+{
+	display: inline;
+	padding-left: 280px;
+	color: #cc3300;
+	position: relative;
+	top: -100px;
+	font-size: 2em;
+}
+.topnav 
+{
+  overflow: hidden;
+  background-color: #ff0066;
+  margin-top: -40px;
+  height: 50px;
+}
+
+.topnav button{
+	float: right;
+	padding-top: 6px 10px;
+	margin-top: 8px;
+	background-color: #ff0066;
+	border:none;
+	display: block;
+	font-size: 17px;
+
+}
+
+.topnav a
+{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ff66ff;
+  color: black;
+}
+
+.topnav .search-container {
+  float: right;
+  margin-top: 2px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.topnav a.active
+{
+margin-top: -5px;
+float: right;
+}
+div.footer 
+{
+  background-color: black;
+  height: 120px;
+  margin-top: 50px;
+
+}
+.footer .follow a img{
+  height: 35px;
+  width: 40px;
+  margin-top: 80px;
+  position: relative;
+  top: -50px;
+  left: 20px;
+}
+div.footer_join a 
+{
+float: right;
+position: relative;
+left: 50px;
+top: -110px;
+color: #ff66cc;
+}
+div.footer a img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: -60px;
+  top: -10px;
+}
+div.footer h3 {
+  text-align: center;
+  position: relative;
+  left: 50px;
+  top: -99px;
+  color: #ff66cc;
+} 

@@ -44,27 +44,14 @@ div.header h2
 	top: -100px;
 	font-size: 2em;
 }
-.topnav 
-{
+.topnav {
   overflow: hidden;
   background-color: #ff0066;
   margin-top: -40px;
   height: 50px;
 }
 
-.topnav button{
-	float: right;
-	padding-top: 6px 10px;
-	margin-top: 8px;
-	background-color: #ff0066;
-	border:none;
-	display: block;
-	font-size: 17px;
-
-}
-
-.topnav a
-{
+.topnav a {
   float: left;
   display: block;
   color: black;
@@ -100,6 +87,9 @@ div.header h2
   font-size: 17px;
   border: none;
   cursor: pointer;
+  position: relative;
+  top: -20px;
+
 }
 
 .topnav .search-container button:hover {
@@ -108,7 +98,7 @@ div.header h2
 
 @media screen and (max-width: 600px) {
   .topnav .search-container {
-    float: none;
+    float: center;
   }
   .topnav a, .topnav input[type=text], .topnav .search-container button {
     float: none;
@@ -122,12 +112,10 @@ div.header h2
     border: 1px solid #ccc;  
   }
 }
-.topnav a.active
-{
-margin-top: -5px;
-float: right;
+.topnav a.active{
+	margin-top: -25px;
+	float: right;
 }
-
 
 
 .btn {
@@ -158,25 +146,19 @@ div.footer
 {
 	background-color: black;
 	height: 100px;
+	width: auto;
 
 }
-.footer .follow a img{
-	height: 35px;
-	width: 40px;
-	margin-top: 80px;
-	position: relative;
-	top: -50px;
-	left: 20px;
-}
-div.footer_join a 
+
+div.footer_join1 a 
 {
 float: right;
 position: relative;
 left: -20px;
-top: -110px;
+top: -60px;
 color: #ff66cc;
 }
-div.footer a img {
+div.footer_join1 a img {
 	width: 50px;
 	height: 50px;
 	position: relative;
@@ -187,6 +169,203 @@ div.footer h3 {
 	text-align: center;
 	position: relative;
 	left: 50px;
-	top: -99px;
+	top: 35px;
 	color: #ff66cc;
+}
+div.main1 p
+{
+	color: white;
+}
+div.main1 ul
+{
+	color: white;
+}
+div.main1 h2
+{
+	color: pink;
+}
+div.main1 img
+{
+	height: 280px;
+	width: 290px;
+	border-radius: 50%;
+}
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 270px;
+    display: inline-block;
+    margin-left: 260px;
+
+}
+
+/* Make the image to responsive */
+.image {
+  width: auto;
+  height: 280px;
+  width: 270px;
+  border-radius: 50%;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  width: 270px;
+  height: 280px;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+  opacity: 1;
+}
+.container:hover .image{
+	opacity: 0.5;
+}
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1 {
+  position: relative;
+  width: 270px;
+  margin-top:10px;
+  display: inline-block;
+  margin-left: 320px;
+}
+div.main-con
+{
+	width:100%;
+}
+/* Make the image to responsive */
+.image1 {
+  width: auto;
+  height: 280px;
+  width: 270px;
+  border-radius: 50%;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  width: 270px;
+  height: 280px;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container1:hover .overlay1 {
+  transform: scale(1);
+  opacity: 1;
+}
+.container1:hover .image1{
+	opacity: 0.5;
+}
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: auto;
+  width: auto;
+}
+.fa-instagram {
+  background: #ff3399;
+  color: white;
+  height: auto;
+  width: auto;
+}
+
+.main1 p{
+	font-size: 28px;
+}
+.main1 ul{
+	font-size: 26px;
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: absolute;
+  top: 90%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 50px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+} 
+.insta{
+	background:#ff3399;
+}
+.whatsapp {
+	background-color: #00cc66;
+}
+div.footer_join1 h3
+{
+float: right;
+position: relative;
+left: -400px;
+top: -60px;
+color: #ff66cc;
 }
